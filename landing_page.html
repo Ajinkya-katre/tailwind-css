@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Apple</title>
+    <link rel="shortcut icon" href="images/apple-icon.png" type="image/x-icon" >
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <style>
-        .bgcolornav{
-            background-color: #323232 !important;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     
-    <nav class=" bgcolornav text-white flex justify-around">
- 
+    <nav class=" sticky top-0 bgcolornav text-white flex justify-around">
         <ul class="px-4 py-4 flex justify-end text-xs">
+            <img src="images/apple-icon.png" class="w-4 h-4" alt="">
             <li class="mx-4"><a href="#">Store</a></li>
             <li class="mx-4"><a href="#">Mac</a></li>
             <li class="mx-4"><a href="#">iPad</a></li>
@@ -34,7 +30,7 @@
     </nav>
     
     <main>
-        <div class="main bg-white h-100 py-20 pl-4 flex justify-center ">
+        <div class="main bg-white h-full py-20 pl-4 flex justify-center ">
             <div class="">
                 <img src="images/ipad.jpg" class=" h-96 " alt="">
             </div>
@@ -43,7 +39,7 @@
                 <h3 class="text-2xl ml-12">Loveable.Drawable.Magical </h3>
                 <h3 class="text-xl mt-4 ml-14 text-slate-400">Available Starting from 23 Oct.</h3>
 
-                <button class="text-blue-600 mt-3 ml-12 text-xl ">Learn More > </button>
+                <button class="text-blue-600 mt-3 ml-12 text-xl  ">Learn More > </button>
                 <button class="text-blue-600 mt-3 ml-10 text-xl ">Order Now > </button>
 
             </div>
@@ -53,6 +49,34 @@
     </main>
 
  
+    <div class="flex h-full m-3 ">
+
+        <div class="side1 bg-black text-white ">
+            <p class="text-4xl font-bold mt-20  text-center" > iPhone 14 pro</p>
+            <p class="text-2xl text-center">Pro. Beyond</p>
+            <div class="text-center">
+                <button class="text-blue-600 mt-3 text-lg  ">Learn More > </button>
+                <button class="text-blue-600 mt-3  text-lg ">Order Now > </button>
+            </div>
+                
+            <img class="w-full h-96 " src="images/iphone14.jpg" alt="">
+        </div>
+
+        <div class=" side2 bg-[#fafafa] text-black">
+            <p class="text-4xl font-bold mt-20 text-center " > iPhone 14 </p>
+            <p class=" text-2xl text-center">Pro. Beyond</p>
+            <div class="text-center">
+                <button class="text-blue-600 mt-3  text-lg  ">Learn More > </button>
+                <button class="text-blue-600 mt-3  text-lg ">Order Now > </button>
+            </div>
+                
+            <img class="w-full h-96" src="images/iphone14new.jpg" alt="">
+        </div>
+
+
+    </div>
+
+    
     
 </body>
 </html>
